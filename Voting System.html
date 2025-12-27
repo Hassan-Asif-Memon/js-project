@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+    <link rel="stylesheet" href="Voting System.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Online Voting Machine</h2>
+        <input type="number" id="cnic" placeholder="Enter your CNIC">
+        <input type="number" id="age" placeholder="Enter your Age">
+        <button class="btn-party" onclick="vote(0)" >Vote Party A</button>
+        <button class="btn-party" onclick="vote(1)" >Vote Party B</button>
+        <button class="btn-party" onclick="vote(2)" >Vote Party C</button>
+        <p id="message"></p>
+        <button class="btn-party" id="btn_result" onclick="ShowResult()">Show Final Result</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="Voting System.js"></script>
+    
+</body>
+</html>
